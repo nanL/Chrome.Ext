@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "misc/24.png",
+      "default_title": "GoQR",
+      "popup": "chrome/index.html"
+   },
+   "description": "QR Code Generator.",
+   "icons": {
+      "24": "misc/24.png",
+      "48": "misc/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmSpaOt4/aeWyr+X7Qw/UAGCHxTfP/hyVwUwvPtyFNwOdAKQTOBA2sA10xXIrIWyU8Dy1XYF+ZWQID0C5fSgSFn0qrU1tNORR1P2sVAOQbX/cWPuNQjbiLa2u7RdnlUYA2o6sP7wIL3Kk1EHScHy7U5P4Zuezhbcri5TYmQAQnAwIDAQAB",
+   "name": "GoQR",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.2.0"
+}
