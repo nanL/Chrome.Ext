@@ -1,6 +1,6 @@
 #ChromeExt#
 
-这里是我编写的 Chrome 拓展插件
+这里是我编写的一些 Google Chrome 浏览器拓展插件：
 
 1. anyShare：简单方便的分享当前页面到流行的社交网站；[点击访问 Chrome 商店安装](https://chrome.google.com/webstore/detail/anyshare/kblmbefkfbimlifaddimbjgejgmcdakc)
 
