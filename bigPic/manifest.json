@@ -1,0 +1,21 @@
+{
+   "name": "bigPic",
+   "version": "0.0.1",
+   "manifest_version": 2,
+   "description": "Pop big pictures on websites.",
+   "homepage_url": "http://nan.im/blog/",
+   "permissions": [],
+   "icons": {
+      "48": "MISC/48.png",
+      "64": "MISC/64.png",
+      "128": "MISC/128.png"
+   },
+   "content_scripts":[{
+      "matches": [
+         "https://itunes.apple.com/*",
+         "http://dribbble.com/*"
+      ],
+      "css": ["MISC/bigPic.css"],
+      "js": ["MISC/jquery.js", "MISC/shadowbox.js", "MISC/bigPic.js"]
+   }]
+}
