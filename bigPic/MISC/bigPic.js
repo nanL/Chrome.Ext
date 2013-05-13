@@ -17,7 +17,7 @@ jQuery(function($){
 	// for
 	if(/(dribbble.com)/i.test(document.location.hostname)){
 		$('a.twotimes').addClass('shadowbox');
-		popBox = true;
+		//popBox = true;
 	}
 
 
