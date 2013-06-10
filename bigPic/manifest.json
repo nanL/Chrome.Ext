@@ -1,6 +1,6 @@
 {
    "name": "bigPic",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "manifest_version": 2,
    "description": "Pop big pictures on websites.",
    "homepage_url": "http://nan.im/blog/",
@@ -12,6 +12,7 @@
    },
    "content_scripts":[{
       "matches": [
+         "http://itunes.apple.com/*",
          "https://itunes.apple.com/*",
          "http://dribbble.com/*"
       ],
