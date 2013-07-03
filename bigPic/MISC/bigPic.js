@@ -22,8 +22,14 @@ jQuery(function($){
 
 	// for dribbble.com
 	if(/(dribbble.com)/i.test(document.location.hostname)){
-		//$('a.twotimes').addClass('shadowbox');
-		//popBox = true;
+        // remove ads ^_^
+        $('noscript, div.ad.thedeck').remove();
+        $('div.attachments').find('a').each(function(idx){ });
+        //
+        $('a.twotimes').after(function(){
+            return '<a rel="shadowbox" href="' + $(this).attr('href') + '">&nbsp;Open BigPic</a>';
+        });
+		popBox = true;
 	}
 
 
@@ -36,3 +42,4 @@ jQuery(function($){
 
     //
 });
+
