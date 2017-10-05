@@ -14,7 +14,7 @@ jQuery(function($){
         //
         $('div.lockup.product.application > a:first-child').attr({
             rel : 'shadowbox[bigIco]',
-            href: function(){ return $(this).find('img').attr('src').replace(/175/g, 512).replace(/.jpg/g, '.png'); }
+            href: function(){ return $(this).find('img').attr('src').replace(/175/g, 1024).replace(/.jpg/g, '.png'); }
         });
         //
         //.clone().attr('href', function(){ return $(this).attr('href').replace(/512/g, 1024); }).prependTo('div.lockup.product.application');
